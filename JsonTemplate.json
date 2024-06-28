@@ -1,0 +1,26 @@
+{
+  "ratingInput": {
+    "data": {
+      "policy": [
+        {
+          "PolicyInputCategory": "${PolicyInputCategory}",
+          "PolicyInputEffectiveDate": "${PolicyInputEffectiveDate}",
+          "PolicyInputExpirationDate": "${PolicyInputExpirationDate}",
+          "Company": "${Company}",
+          "line": [
+            {
+              "LineInputClassOfInsuredCode": "${LineInputClassOfInsuredCode}",
+              "LineInputFaithfulPerformanceOfDutyFactor": "${LineInputFaithfulPerformanceOfDutyFactor}",
+              "linecoverages": [
+                {
+                  "LineCoveragesInputCoverageCode": "${LineCoveragesInputCoverageCode}",
+                  "LineCoveragesInputLimit": "${LineCoveragesInputLimit}"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
