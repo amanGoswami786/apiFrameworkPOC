@@ -1,0 +1,71 @@
+{
+  "ratingInput" : {
+    "data" : {
+      "policy" : [ {
+        "PolicyInputCategory" : "CAT001",
+        "PolicyInputEffectiveDate" : "2024-01-01",
+        "PolicyInputExpirationDate" : "2025-01-01",
+        "Company" : "ABC",
+        "line" : [ {
+          "LineInputClassOfInsuredCode" : "CLASS01",
+          "LineInputFaithfulPerformanceOfDutyFactor" : "1.0",
+          "linecoverages" : [ {
+            "LineCoveragesInputCoverageCode" : "COV0011",
+            "LineCoveragesInputLimit" : "100000.0"
+          }, {
+            "LineCoveragesInputCoverageCode" : "COV0012",
+            "LineCoveragesInputLimit" : "120000.0"
+          }, {
+            "LineCoveragesInputCoverageCode" : "COV002",
+            "LineCoveragesInputLimit" : "50000.0"
+          } ]
+        }, {
+          "LineInputClassOfInsuredCode" : "CLASS02",
+          "LineInputFaithfulPerformanceOfDutyFactor" : "1.0",
+          "linecoverages" : [ {
+            "LineCoveragesInputCoverageCode" : "COV0011",
+            "LineCoveragesInputLimit" : "100000.0"
+          }, {
+            "LineCoveragesInputCoverageCode" : "COV0012",
+            "LineCoveragesInputLimit" : "120000.0"
+          }, {
+            "LineCoveragesInputCoverageCode" : "COV002",
+            "LineCoveragesInputLimit" : "50000.0"
+          } ]
+        } ]
+      }, {
+        "PolicyInputCategory" : "CAT002",
+        "PolicyInputEffectiveDate" : "2024-01-01",
+        "PolicyInputExpirationDate" : "2025-01-01",
+        "Company" : "XYZ",
+        "line" : [ {
+          "LineInputClassOfInsuredCode" : "CLASS01",
+          "LineInputFaithfulPerformanceOfDutyFactor" : "1.0",
+          "linecoverages" : [ {
+            "LineCoveragesInputCoverageCode" : "COV0011",
+            "LineCoveragesInputLimit" : "100000.0"
+          }, {
+            "LineCoveragesInputCoverageCode" : "COV0012",
+            "LineCoveragesInputLimit" : "120000.0"
+          }, {
+            "LineCoveragesInputCoverageCode" : "COV002",
+            "LineCoveragesInputLimit" : "50000.0"
+          } ]
+        }, {
+          "LineInputClassOfInsuredCode" : "CLASS02",
+          "LineInputFaithfulPerformanceOfDutyFactor" : "1.0",
+          "linecoverages" : [ {
+            "LineCoveragesInputCoverageCode" : "COV0011",
+            "LineCoveragesInputLimit" : "100000.0"
+          }, {
+            "LineCoveragesInputCoverageCode" : "COV0012",
+            "LineCoveragesInputLimit" : "120000.0"
+          }, {
+            "LineCoveragesInputCoverageCode" : "COV002",
+            "LineCoveragesInputLimit" : "50000.0"
+          } ]
+        } ]
+      } ]
+    }
+  }
+}
